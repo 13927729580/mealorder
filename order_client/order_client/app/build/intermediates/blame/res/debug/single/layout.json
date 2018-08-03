@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_note.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_note.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_main.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_main.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_collect.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_collect.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\site_spinner.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\site_spinner.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_module.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\item_list_module.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_order.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\update_order.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_calendar.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_calendar.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_detail.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_detail.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_list.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_list.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weather_layout.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\weather_layout.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_content.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\note_content.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_amusement.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_amusement.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weather_all.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\weather_all.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\infor_modify.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\infor_modify.xml"
+    },
+    {
+        "merged": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_setting.xml",
+        "source": "D:\\20160820\\2016018\\HealthInfo1\\order_client\\app\\src\\main\\res\\layout\\order_setting.xml"
+    }
+]

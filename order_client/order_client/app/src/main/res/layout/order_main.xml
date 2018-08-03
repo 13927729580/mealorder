@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    >
+    
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/main_bg"
+		android:layout_marginLeft="5dip"
+		/>
+		
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dip"
+		>
+	
+		<ImageButton android:id="@+id/menu_dc"
+			android:src="@drawable/menu_dc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<ImageButton android:id="@+id/menu_sc"
+			android:src="@drawable/menu_sc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<ImageButton android:id="@+id/menu_gx"
+			android:src="@drawable/menu_gx"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+	
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dip"
+		>
+			
+		<ImageButton android:id="@+id/menu_yl"
+			android:src="@drawable/menu_yl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<ImageButton android:id="@+id/menu_tq"
+			android:src="@drawable/menu_tq"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		
+		<ImageButton android:id="@+id/menu_rl"
+			android:src="@drawable/menu_rl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+	
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dip"
+		>
+	
+		<ImageButton android:id="@+id/menu_xx"
+			android:src="@drawable/menu_xx"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+	
+		<ImageButton android:id="@+id/menu_sz"
+			android:src="@drawable/menu_sz"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<ImageButton android:id="@+id/menu_tc"
+			android:src="@drawable/menu_tc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+	
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dip"
+		>
+		
+		<TextView android:id="@+id/infor_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			android:layout_marginTop="10dip"
+			/>
+
+	</TableRow>
+	
+</LinearLayout>

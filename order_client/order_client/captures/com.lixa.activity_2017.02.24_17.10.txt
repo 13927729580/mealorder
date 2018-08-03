@@ -1,0 +1,48 @@
+TASK com.lixa.activity id=6
+  ACTIVITY com.lixa.activity/.OrderMainActivity 5ac7878 pid=2794
+    Local Activity 178a544 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc en_US ldltr sw360dp w360dp h568dp 320dpi nrml port finger -keyb/v/h -nav/h s.5}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@951462d
+        mContainer=android.app.Activity$HostCallbacks@951462d
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=99933 (318 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{ecac762 V.E...... R.....I. 0,0-720,1184}
+        android.widget.LinearLayout{ce2f0f3 V.E...... ......I. 0,0-720,1184}
+          android.view.ViewStub{fcd1b0 G.E...... ......I. 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{1a91829 V.E...... ......I. 0,48-720,98}
+            android.widget.TextView{311f7ae V.ED..... ......I. 8,1-712,47 #1020016 android:id/title}
+          android.widget.FrameLayout{6b1a94f V.E...... ......I. 0,98-720,1184 #1020002 android:id/content}
+            android.widget.LinearLayout{d5558dc V.E...... ......I. 0,0-720,1086}
+              android.widget.TextView{4920de5 VFED..... ......I. 0,20-720,101}
+              android.widget.TableRow{689e0ba V.E...... ......I. 0,121-539,217}
+                android.widget.TextView{5098b6b V.ED..... ......I. 30,27-149,65}
+                android.widget.EditText{d4d26c8 VFED..CL. ......I. 149,0-509,96 #7f060023 app:id/text_username}
+              android.widget.TableRow{25aa361 V.E...... ......I. 0,217-720,313}
+                android.widget.TextView{c654e86 V.ED..... ......I. 30,27-149,65}
+                android.widget.EditText{6b37347 VFED..CL. .F....I. 149,0-509,96 #7f060024 app:id/text_password}
+              android.widget.TableRow{771e774 V.E...... ......I. 0,333-720,429}
+                android.widget.ImageButton{7bd149d VFED..C.. ......I. 194,0-298,96 #7f060025 app:id/imb_login}
+                android.widget.ImageButton{637cd12 VFED..C.. ......I. 318,0-422,96 #7f060026 app:id/imb_clear}
+                android.widget.ImageButton{429fce3 VFED..C.. ......I. 442,0-546,96 #7f060027 app:id/imb_register}
+              android.widget.TableRow{b8006e0 V.E...... ......I. 0,429-720,553}
+                android.widget.TextView{8db5d99 V.ED..... ......I. 50,20-670,124}
+    Looper (main, tid 1) {941a85e}
+      Message 0: { when=+175ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 1, polling=false, quitting=false)

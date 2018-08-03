@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<!-- 注册 Servlet -->
+	<servlet>
+		<servlet-name>userRegister</servlet-name>
+		<servlet-class>com.lixa.servlet.UserRegisterSerlvet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>userRegister</servlet-name>
+		<url-pattern>/userSetvlet/userRegister</url-pattern>
+	</servlet-mapping>	
+	
+	<!-- 登陆 Servlet -->
+	<servlet>
+		<servlet-name>userLogin</servlet-name>
+		<servlet-class>com.lixa.servlet.UserLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userLogin</servlet-name>
+		<url-pattern>/userSetvlet/userlogin</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 用户信息修改 -->
+	<servlet> <!-- 基本信息修改 -->
+		<servlet-name>baseInforModify</servlet-name>
+		<servlet-class>com.lixa.servlet.UserBaseModifyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>baseInforModify</servlet-name>
+		<url-pattern>/userInforManage/baseModify</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> <!-- 密码修改 -->
+		<servlet-name>passwordInforModify</servlet-name>
+		<servlet-class>com.lixa.servlet.UserPasswordModifyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>passwordInforModify</servlet-name>
+		<url-pattern>/userInforManage/passwordModify</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 菜单管理 -->
+	<servlet>
+		<servlet-name>addOrder</servlet-name> <!-- 新加菜单 -->
+		<servlet-class>com.lixa.servlet.AddOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addOrder</servlet-name>
+		<url-pattern>/manageServlet/addOrder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>listOrder</servlet-name> <!-- 菜单列表 -->
+		<servlet-class>com.lixa.servlet.ListOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>listOrder</servlet-name>
+		<url-pattern>/manageServlet/listOrder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>queryOrder</servlet-name> <!-- 查询菜单 -->
+		<servlet-class>com.lixa.servlet.QueryOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>queryOrder</servlet-name>
+		<url-pattern>/manageServlet/queryOrder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteOrder</servlet-name> <!-- 删除菜单 -->
+		<servlet-class>com.lixa.servlet.DeleteOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteOrder</servlet-name>
+		<url-pattern>/manageServlet/deleteOrder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateOrder</servlet-name> <!-- 修改菜单 -->
+		<servlet-class>com.lixa.servlet.UpdateOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateOrder</servlet-name>
+		<url-pattern>/manageServlet/updateOrder</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 视频管理 -->
+	<servlet>
+		<servlet-name>addVideo</servlet-name> <!-- 新加视频 -->
+		<servlet-class>com.lixa.servlet.AddVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addVideo</servlet-name>
+		<url-pattern>/manageServlet/addVideo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>listVideo</servlet-name> <!-- 视频列表 -->
+		<servlet-class>com.lixa.servlet.ListVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>listVideo</servlet-name>
+		<url-pattern>/manageServlet/listVideo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>queryVideo</servlet-name> <!-- 查询视频 -->
+		<servlet-class>com.lixa.servlet.QueryVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>queryVideo</servlet-name>
+		<url-pattern>/manageServlet/queryVideo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>overdueVideo</servlet-name> <!-- 设置过期 -->
+		<servlet-class>com.lixa.servlet.OverDueVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>overdueVideo</servlet-name>
+		<url-pattern>/manageServlet/overdueVideo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateVideo</servlet-name> <!-- 修改视频 -->
+		<servlet-class>com.lixa.servlet.UpdateVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateVideo</servlet-name>
+		<url-pattern>/manageServlet/updateVideo</url-pattern>
+	</servlet-mapping>
+	<!-- 菜单更新管理 -->
+	<servlet>
+		<servlet-name>checkOrderVersion</servlet-name>
+		<servlet-class>com.lixa.servlet.order.CheckOrderVersionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>checkOrderVersion</servlet-name>
+		<url-pattern>/orderManage/checkOrderVersion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>clientUpdateOrder</servlet-name>
+		<servlet-class>com.lixa.servlet.order.ClientUpdateOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clientUpdateOrder</servlet-name>
+		<url-pattern>/orderManage/updateOrder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>makeOrder</servlet-name>
+		<servlet-class>com.lixa.servlet.order.MakeOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>makeOrder</servlet-name>
+		<url-pattern>/orderManage/makeOrder</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 点菜，处理菜管理 -->
+	<servlet>
+		<servlet-name>queryAllOrderLog</servlet-name> <!-- 点菜日志列表 -->
+		<servlet-class>com.lixa.servlet.OrderLogListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>queryAllOrderLog</servlet-name>
+		<url-pattern>/orderLogManage/queryLogList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateOrderLog</servlet-name> <!-- 点菜日志列表 -->
+		<servlet-class>com.lixa.servlet.OrderLogUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateOrderLog</servlet-name>
+		<url-pattern>/orderLogManage/updateLogList</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 留言管理 -->
+	
+	<filter>
+		<filter-name>ending</filter-name>
+		<filter-class>com.lixa.util.EncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ending</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
