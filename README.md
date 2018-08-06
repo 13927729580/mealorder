@@ -1,7 +1,7 @@
 # 点菜宝
 
 #### 项目介绍
-餐厅点菜软件包括一个android的客户端还有一个JAVA Web的后台。
+餐厅点菜软件包括一个android的客户端还有一个JAVA Web的后台，客户端可以部署于android平板及手机端，服务端可以部署于linux环境下。
 
 #### 软件架构
 1.order_client为安卓移动端。
