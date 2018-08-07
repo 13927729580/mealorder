@@ -12,14 +12,14 @@
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
+1. order_client推荐使用android studio实现编译开发。
+2. order_server为服务端，推荐使用eclipse开发。
 
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
+1. order_client打包成apk文件后安装于安卓手机平板设备即可。
+2. order_server部署于linux服务端。
 
 
 
